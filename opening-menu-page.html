@@ -1,12 +1,23 @@
 <html>
-    <header>
+    <head>
         <title>Main menu</title>
-        <link rel="stylesheet" href="opening-menu-page.css">
-    </header>
+        <link rel="stylesheet" href="opening-menu-style.css" type="text/css">
+    </head>
 
     <body>
-        <div class = "menu-page">
+        <div id="title-text">
             <h1>Welcome to guitar build 1.0</h1>
         </div>
+            <button class="button" type="button" onclick="guitarRedirect()">Guitar builder</button>
+            <br>
+            <button class="button" type="button" onclick="">Amplifier builder</button>
+            <br>
+            <button class="button" type="button" onclick="">Pedal builder</button>
     </body>
+    <script>
+
+        function guitarRedirect(){
+            window.location.href = "guitar-loading-page.html";
+        }
+    </script>
 </html>
